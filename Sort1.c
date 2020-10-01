@@ -47,7 +47,7 @@ int main()
     for(i=0;i<n;i++)
      scanf("%d",arr+i);
     insertionSort(arr, n);
-     printf("\nThe array elements:\n");
+     printf("\nThe array elements are:\n");
     printArray(arr, n);
     int result = binarySearch(arr, 0, n - 1);
     printf("\nElement 1 is first present at index %d and at position %d.\n",result,result+1);
